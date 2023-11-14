@@ -1,0 +1,1139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: relative;
+}
+
+.header .contentheader {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    width: 1920px;
+}
+
+
+
+.header .contentheader .logo0 .logo {
+
+    position: absolute;
+}
+
+.header .contentheader .logo {
+    position: absolute;
+    top: 0px;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.header .contentheader .logo p {
+    position: absolute;
+    top: 17px;
+    left: 22px;
+    color: black;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.28px;
+}
+
+.header .contentheader .menu {
+    display: flex;
+    align-items: center;
+    /* background-color: yellow; */
+    padding-top: 34px;
+}
+
+.header .contentheader li {
+    display: inline-block;
+}
+
+.header .contentheader li a {
+    /* background-color: green; */
+    margin: 0 40px;
+    text-decoration: none;
+    color: black;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.44px;
+}
+
+.header .contentheader .menu .nutmenu {
+    /* background-color: red; */
+    margin: 0px 85px 0px 41px;
+}
+
+.header .contentheader .menu .nutmenu button {
+    margin-right: 26px;
+    width: 160px;
+    border: none;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 80px;
+    background: #49BBBD;
+    ;
+    box-shadow: 0px 20px 24px 0px rgba(0, 0, 0, 0.03);
+}
+
+.header .contentheader .menu .nutmenu button p {
+    color: white;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.44px;
+}
+
+.header .contentheader .menu .nutmenu button p:hover {
+    color: #5B5B5B;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.44px;
+}
+
+.header .contentheader .menu .nutmenu button:hover {
+    border-radius: 80px;
+    background: conic-gradient(from 90deg at 50.00% 100.00%, #FFF 0deg, #FFF 360deg);
+    box-shadow: 0px 20px 24px 0px rgba(0, 0, 0, 0.03);
+    color: white;
+}
+img {
+    vertical-align: middle;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1920px;
+
+    height: 10000px;
+}
+
+.content {
+    position: relative;
+}
+
+.listcontent {
+    margin: 59px 0px 83px 132px;
+
+    display: flex;
+}
+
+.listcontent>div {
+    margin: 0px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 63px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.10);
+}
+
+.listcontent>div>p {
+    width: 100px;
+    height: 30px;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.40);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.listcontent>div:hover {
+    background: #49BBBD;
+}
+
+.listcontent>div:hover p {
+    color: white;
+}
+
+.rectangle98 {
+    margin-left: 157px;
+    width: 950px;
+    height: 764px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: rgba(157, 204, 255, 0.30);
+}
+
+.rectangle98>.khoi1 {
+    padding: 50px;
+    display: flex;
+}
+
+.rectangle98>.khoi1>.rectangle99 {
+    text-align: center;
+    width: 257px;
+    height: 199px;
+    flex-shrink: 0;
+    fill: #FFF;
+    background-color: white;
+
+    border-radius: 20px;
+}
+
+.rectangle98>.khoi1>.rectangle99 .p1 {
+    display: inline-block;
+    padding: 25px 48px 0px 48px;
+    width: 161px;
+    height: 38px;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Poppins;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.6px;
+
+}
+
+.rectangle98>.khoi1>.rectangle99 .p2 {
+    display: inline-block;
+    padding: 0;
+    width: 121px;
+    height: 33px;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+.rectangle98>.khoi1>.rectangle99 img {
+    padding: 28px 64px;
+    padding-bottom: 23px;
+    width: 130px;
+    height: 22px;
+    flex-shrink: 0;
+    fill: #FDB022;
+}
+
+.listitem>.thetruot>.thanhtruot {
+    margin-left: 45px;
+    position: relative;
+    display: flex;
+}
+
+.listitem p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.listitem>.thetruot {
+    margin: 6px 0px;
+    margin-left: 42px;
+    display: flex;
+    width: 548px;
+    height: 33px;
+    flex-shrink: 0;
+
+    align-items: center;
+}
+
+.listitem>.thetruot .thetruot {
+    background-color: red;
+}
+
+.listitem>.thetruot .truotcha {
+    width: 432px;
+    height: 8px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #D9D9D9;
+}
+
+.listitem>.thetruot .truotcon {
+
+    position: absolute;
+    left: 0;
+    width: 332.72px;
+    height: 8px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #49BBBD;
+}
+
+.listitem>.thetruot p {
+    width: 71px;
+    height: 33px;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+.rectangle98 .khoi2 {
+    margin-left: 50px;
+}
+
+.rectangle98 .khoi2 .noidung1 {
+    width: 848.652px;
+    height: 166px;
+    flex-shrink: 0;
+
+}
+
+.rectangle98 .khoi2 .phan1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.rectangle98 .khoi2 .phan1 .thongtin p {
+    width: 42.73px;
+    height: 30.361px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+.rectangle98 .khoi2 .noidung1>p {
+    margin-top: 23.16px;
+    width: 847px;
+    height: 72px;
+    flex-shrink: 0;
+    color: #696984;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 36px */
+    letter-spacing: 0.4px;
+}
+
+.rectangle98 .khoi2 .phan1 .chuthich {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 96px;
+    height: 28px;
+    flex-shrink: 0;
+}
+
+.rectangle98 .khoi2 .phan1 .chuthich p {
+    display: flex;
+    align-items: center;
+}
+
+.noidungcanh {
+    width: 501px;
+    height: 1275px;
+    flex-shrink: 0;
+    background-color: white;
+    position: absolute;
+    border-radius: 20px;
+    border: 30px solid #FFF;
+    top: -380px;
+    right: 120px;
+
+}
+
+.khoicanh .noidungcanh>img {
+    width: 100%;
+    height: 268px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.khoicanh .noidungcanh .chuanh {
+    display: flex;
+    margin: 20px 0px 40px 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.khoicanh .noidungcanh p {
+    margin: 0 5px;
+}
+
+.khoicanh .noidungcanh .chu1 {
+    width: 165px;
+    height: 66px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.9px;
+}
+
+.khoicanh .noidungcanh .chu2 {
+    width: 109px;
+    height: 41px;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    text-decoration-line: strikethrough;
+}
+
+.khoicanh .noidungcanh .chu3 {
+    width: 124px;
+    height: 34px;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.56px;
+}
+
+.khoicanh .noidungcanh .chu4 {
+    margin-bottom: 25px;
+    text-align: center;
+    height: 34px;
+    flex-shrink: 0;
+    color: #49BBBD;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+.khoicanh .noidungcanh .khoicanh2 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 63px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #49BBBD;
+    border: 0px;
+    margin-bottom: 30px;
+}
+
+.khoicanh .noidungcanh .khoicanh2 p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.khoicanh .khoi1>p {
+
+    height: 34px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-bottom: 30px
+}
+
+.khoichu {
+    margin: 10px 0px 10px 0px;
+    width: 378px;
+    height: 23px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+}
+
+.khoichu>p {
+
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.noidungcanh .chu1cuoi {
+
+    color: #000;
+
+
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+.noidungcanh .khoi1 .khoicanhchucuoi{
+
+    height: 250px;
+    overflow: auto;
+}
+.noidungcanh .chu2cuoi {
+    padding-top: 40px;
+    color: #696984;
+
+    flex-shrink: 0;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 25.2px */
+    letter-spacing: 0.28px;
+}
+
+.khoicanh .khoi1 .icon .icon1 path {
+    transition: 1s;
+}
+
+.khoicanh .khoi1 .icon .icon1 path:hover {
+    fill: red;
+}
+
+.khoicanh .khoi1 .icon .icon2 path {
+    transition: 1s;
+}
+
+.khoicanh .khoi1 .icon .icon2 path:hover {
+    fill: red;
+}
+
+.khoicanh .khoi1 .icon .icon3 path {
+    transition: 1s;
+}
+
+.khoicanh .khoi1 .icon .icon3 path:hover {
+    fill: red;
+}
+
+.khoicanh .khoi1 .icon .icon4 path {
+    transition: 1s;
+}
+
+.khoicanh .khoi1 .icon .icon4 path:hover {
+    fill: red;
+}
+
+.khoicanh .khoi1 .icon .icon5 path {
+    transition: 1s;
+}
+
+.khoicanh .khoi1 .icon .icon5 path:hover {
+    fill: red;
+}
+
+.khoicanh .khoi1 .icon .icon6 path {
+    transition: 1s;
+}
+
+.khoicanh .khoi1 .icon .icon6 path:hover {
+    fill: red;
+}
+
+.khoicanh .khoi1 .icon {
+    display: flex;
+    margin-top: 60px;
+}
+
+.khoicanh .khoi1 .icon>div {
+    margin: 0 15px;
+}
+
+.khoicanh .khoi1 .icon .icon1 {
+    margin-left: 0px;
+}
+
+.danhmucsp {
+    margin-top: 110px;
+    width: 1920px;
+    height: 896px;
+    flex-shrink: 0;
+    background: rgba(157, 204, 255, 0.2);
+
+}
+
+.danhmucsp .chudau {
+    padding-top: 108px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.danhmucsp .chudau .chudau1 {
+    color: #000;
+    margin-left: 115px;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.danhmucsp .chudau .chudau2 {
+    margin-right: 115px;
+    color: #49BBBD;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.danhmucsp .noidung {
+    display: flex;
+    justify-content: space-between;
+    width: 1646px;
+    height: 617px;
+
+    margin: 0 auto;
+}
+
+.danhmucsp .noidung .noidung1 {
+    width: 334px;
+    height: 562px;
+    background-color: white;
+    border: 27px white solid;
+    border-radius: 20px;
+}
+
+.danhmucsp .noidung .noidung1>.icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.danhmucsp .noidung .noidung1>.icon>.icon1 {
+    display: flex;
+}
+
+.danhmucsp .noidung .noidung1>.icon>.icon1 p {
+    margin-left: 10px;
+    color: #696984;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+    /* 25.2px */
+    letter-spacing: 0.28px;
+}
+
+.danhmucsp .noidung .noidung1>img {
+    object-fit: cover;
+    margin-bottom: 20px;
+
+}
+
+.danhmucsp .noidung .noidung1>.chu1 {
+    margin-top: 15px;
+    color: #252641;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.danhmucsp .noidung .noidung1>.chu2 {
+    margin-top: 17px;
+    color: #696984;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 32.4px */
+    letter-spacing: 0.36px;
+}
+
+.danhmucsp .noidung .noidung1 .iconkhoi1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+
+.danhmucsp .noidung .noidung1 .iconkhoi1 .khoichuicon {
+    display: flex;
+    align-items: center;
+}
+
+.danhmucsp .noidung .noidung1 .iconkhoi1 .khoianh {
+    display: flex;
+    align-items: center;
+}
+
+.danhmucsp .noidung .noidung1 .iconkhoi1 .khoianh>p {
+    margin-left: 17px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.36px;
+
+}
+
+.danhmucsp .noidung .noidung1 .iconkhoi1 .khoichuicon .chu1 {
+    margin: 0 14px;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-decoration-line: strikethrough;
+}
+
+.danhmucsp .noidung .noidung1 .iconkhoi1 .khoichuicon .chu2 {
+    color: #49BBBD;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+.content .gioithieu {
+
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1547px;
+    height: 512px;
+    flex-shrink: 0;
+    margin-top: 200px;
+}
+
+
+.content .gioithieu .khoichugioithieu .chu1khoichugioithieu {
+
+    width: 655px;
+    color: #2F327D;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    /* 57.6px */
+}
+
+.content .gioithieu .khoichugioithieu .chu1khoichugioithieu span {
+    color: #00CBB8;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.content .gioithieu .khoichugioithieu .chu2khoichugioithieu {
+    width: 730px;
+    color: #696984;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 43.2px */
+    letter-spacing: 0.48px;
+}
+
+.content .gioithieu .khoichugioithieu .chu3khoichugioithieu {
+    margin-top: 40px;
+    color: #696984;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 39.6px */
+    text-decoration-line: underline;
+}
+
+.content .gioithieu .khoichugioithieu .anhchenchu1 {
+    width: 655px;
+    height: 100px;
+    position: relative;
+
+}
+
+.content .gioithieu .khoichugioithieu .anhchenchu1 svg {
+    position: absolute;
+    left: -25px;
+    top: -13px;
+}
+
+.content .gioithieu .khoichugioithieu .anhchenchu1 p {
+    position: absolute;
+}
+
+.content .gioithieu .khoichugioithieu .anhchenchu2 {
+    margin-top: 50px;
+    width: 730px;
+    height: 200px;
+    position: relative;
+}
+
+.content .gioithieu .khoichugioithieu .anhchenchu2 svg {
+    position: absolute;
+    right: 18px;
+    top: 98px;
+}
+
+.content .gioithieu .khoichugioithieu .anhchenchu2 p {
+    position: absolute;
+}
+
+.content .gioithieu .khoividgioithieu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 745px;
+    height: 511.079px;
+    flex-shrink: 0;
+
+}
+
+.content .gioithieu .khoividgioithieu .khoixanh1 {
+    width: 138px;
+    height: 138px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #23BDEE;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.content .gioithieu .khoividgioithieu .khoixanh2 {
+    width: 231px;
+    height: 231px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #33EFA0;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+.content .gioithieu .khoividgioithieu img {
+    position: absolute;
+    z-index: 2;
+}
+
+.content .end {
+    margin: 0 auto;
+    width: 1659px;
+
+    height: 590px;
+    margin-top: 183px;
+}
+
+.noidungend {
+    width: 506px;
+    height: 477.419px;
+    flex-shrink: 0;
+    fill: rgba(23, 27, 65, 0.50);
+    /* stroke-width: 1px;
+stroke: #000;
+opacity: 0.6000000238418579; */
+
+}
+
+.noidungend {
+    position: relative;
+  
+}
+
+.noidungend img {
+    width: 100%;
+
+}
+
+.chuend0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: rgba(255, 0, 0, 0.60);
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+
+.chuend0 p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.chuend1 {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    left: 50px;
+    top: 169px;
+}
+
+.chuend2 {
+    top: 240px;
+    left: 50px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 43.2px */
+    letter-spacing: 0.48px;
+    width: 405px;
+    height: 120px;
+    flex-shrink: 0;
+    position: absolute;
+}
+
+.end>p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-bottom: 64px;
+}
+.end .bangend{
+    display: flex;
+    justify-content: space-between;
+}
+.footer {
+
+    width: 1920px;
+    height: 593px;
+    flex-shrink: 0;
+    background: #252641;
+}
+
+.footer>.chudau {
+    padding-top: 74px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footerchu {
+    margin-left: 77px;
+    border-left: 2px solid white;
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 237px;
+}
+
+.footer .footerchu p {
+    width: 156px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.88px;
+}
+
+.footerlogo {
+    width: 114px;
+    position: relative;
+}
+
+.footerlogo p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.28px;
+    position: absolute;
+    top: 23px;
+    left: 19px;
+}
+
+.footer>p {
+    text-align: center;
+    color: #B2B3CF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.04px;
+    margin-top: 95px;
+}
+
+.footer .nhap {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .nhap input {
+    border-radius: 80px;
+    border: 1px solid #83839A;
+    width: 400px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+.footer .nhap input::placeholder {
+    color: #83839A;
+    padding-left: 30px;
+    background: none;
+    border: none;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+}
+
+.footer .nhap button {
+    margin-left: 20px;
+    width: 179px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    background: #49BBBD;
+}
+
+.footer .nhap button p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer .chu3khoi {
+    margin-top: 96px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .chu3khoi>p {
+    color: #B2B3CF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.88px;
+}
+
+.footer .chu3khoi .chu1 {
+    border-left: 2px solid #626381;
+    border-right: 2px solid #626381;
+    margin: 0px 20px;
+    padding: 0px 13px;
+    width: 161px;
+    text-align: center;
+    color: #B2B3CF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.88px;
+}
+
+.footer .chu3khoi .chu2 {
+    color: #B2B3CF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.88px;
+}
+
+.chucuoifooter {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.chucuoifooter p {
+    color: #B2B3CF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.88px;
+}

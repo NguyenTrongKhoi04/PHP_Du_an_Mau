@@ -1,0 +1,491 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+header {
+    position: relative;
+}
+
+.header .contentheader {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    width: 1920px;
+}
+
+
+
+.header .contentheader .logo0 .logo {
+
+    position: absolute;
+}
+
+.header .contentheader .logo {
+    position: absolute;
+    top: 0px;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.header .contentheader .logo p {
+    position: absolute;
+    top: 17px;
+    left: 22px;
+    color: black;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.28px;
+}
+
+.header .contentheader .menu {
+    display: flex;
+    align-items: center;
+    /* background-color: yellow; */
+    padding-top: 34px;
+}
+
+.header .contentheader li {
+    display: inline-block;
+}
+
+.header .contentheader li a {
+    /* background-color: green; */
+    margin: 0 40px;
+    text-decoration: none;
+    color: black;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.44px;
+}
+
+.header .contentheader .menu .nutmenu {
+    /* background-color: red; */
+    margin: 0px 85px 0px 41px;
+}
+
+.header .contentheader .menu .nutmenu button {
+    margin-right: 26px;
+    width: 160px;
+    border: none;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 80px;
+    background: #49BBBD;
+    ;
+    box-shadow: 0px 20px 24px 0px rgba(0, 0, 0, 0.03);
+}
+
+.header .contentheader .menu .nutmenu button p {
+    color: white;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.44px;
+}
+
+.header .contentheader .menu .nutmenu button p:hover {
+    color: #5B5B5B;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.44px;
+}
+
+.header .contentheader .menu .nutmenu button:hover {
+    border-radius: 80px;
+    background: conic-gradient(from 90deg at 50.00% 100.00%, #FFF 0deg, #FFF 360deg);
+    box-shadow: 0px 20px 24px 0px rgba(0, 0, 0, 0.03);
+    color: white;
+}
+
+/*  */
+/*  */
+/*  */
+
+.content .content1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    width: 1920px;
+    height: 667px;
+    background-color: rgba(157, 204, 255, 0.2);
+}
+
+.content .content1 .chucontent1 {
+    padding-left: 114px;
+    margin-top: -80px;
+}
+
+.content .content1 .chucontent1 .chu1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.content .content1 .chucontent1 .chu1 span {
+    color: #49BBBD;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.content .content1 .chucontent1 .chu2 {
+    width: 670px;
+    margin-bottom: 14px;
+    color: #2F327D;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.content .content1 .chucontent1 .chu3 {
+    color: #696984;
+    margin-bottom: 25px;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 43.2px */
+    letter-spacing: 0.48px;
+    width: 688px;
+}
+
+.content .content1 .chucontent1 button {
+    width: 236px;
+    height: 63px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #222727;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.content .content1>img {
+    margin-right: 163px;
+}
+
+.content>.chuphu1 {
+    display: block;
+    height: 80px;
+    width: 603px;
+    margin: 0 auto;
+    color: #49BBBD;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -1px;
+    margin-top: 60px;
+}
+
+.content .listcourse {
+  
+    width: 1652px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 40px;
+
+}
+
+.content .listcourse .sanpham {
+    width: 356px;
+    height: 327px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.content .listcourse .sanpham .chusanpham {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 60px;
+    bottom: 34px;
+    width: 236px;
+    height: 63px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.70);
+    z-index: 1;
+}
+
+.content .listcourse .sanpham .chusanpham p {
+    width: 75px;
+    height: 31px;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.content .loc {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.content .loc>div {
+
+    width: 443px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background-color: rgb(200, 220, 255);
+    text-align: center;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.content .loc>div:hover {
+    background: #49BBBD;
+    color: white;
+}
+
+.content .loc>div>button {
+    font-size: 35px;
+    border: none;
+    width: 100%;
+    background: none;
+}
+.content .loc>div>button:hover{
+    color: white;
+}
+
+.content .nut {
+    display: flex;
+    justify-content: space-between;
+    align-items: centers;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.content .nut button {
+    color: white;
+    border-radius: 10px;
+    background: #49BBBD;
+    font-size: 30px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 60px;
+}
+
+.content .nut button:hover {
+    color: black;
+    background: rgba(255, 255, 255, 0.70);
+}
+
+.footer {
+
+    width: 1920px;
+    height: 593px;
+    flex-shrink: 0;
+    background: #252641;
+}
+
+.footer>.chudau {
+    padding-top: 74px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footerchu {
+    margin-left: 77px;
+    border-left: 2px solid white;
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 237px;
+}
+
+.footer .footerchu p {
+    width: 156px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.88px;
+}
+
+.footerlogo {
+    width: 114px;
+    position: relative;
+}
+
+.footerlogo p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.28px;
+    position: absolute;
+    top: 23px;
+    left: 19px;
+}
+
+.footer>p {
+    text-align: center;
+    color: #B2B3CF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.04px;
+    margin-top: 95px;
+}
+
+.footer .nhap {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .nhap input {
+    border-radius: 80px;
+    border: 1px solid #83839A;
+    width: 400px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+.footer .nhap input::placeholder {
+    color: #83839A;
+    padding-left: 30px;
+    background: none;
+    border: none;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+}
+
+.footer .nhap button {
+    margin-left: 20px;
+    width: 179px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    background: #49BBBD;
+}
+
+.footer .nhap button p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer .chu3khoi {
+    margin-top: 96px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .chu3khoi>p {
+    color: #B2B3CF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.88px;
+}
+
+.footer .chu3khoi .chu1 {
+    border-left: 2px solid #626381;
+    border-right: 2px solid #626381;
+    margin: 0px 20px;
+    padding: 0px 13px;
+    width: 161px;
+    text-align: center;
+    color: #B2B3CF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.88px;
+}
+
+.footer .chu3khoi .chu2 {
+    color: #B2B3CF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.88px;
+}
+
+.chucuoifooter {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.chucuoifooter p {
+    color: #B2B3CF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.88px;
+}

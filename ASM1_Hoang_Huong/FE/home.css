@@ -1,0 +1,295 @@
+@font-face {
+    font-family: 'HoangHuong';
+    src: url('./Roboto/Roboto-Regular.ttf');
+}
+
+* {
+    font-family: 'HoangHuong';
+}
+
+/* body{
+    width: 95%;
+    margin: auto;
+} */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+   background-color: white;
+    /* margin: -10px; */
+    vertical-align: middle;
+    top: 0;
+}
+header .logo{
+    font-size: 27px;
+    display: flex;
+    gap: 5px;
+    font-weight: bold;
+    align-items: center;
+}
+header .menu {
+    margin-right: 60px;
+    
+}
+header .menu a{
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+header .icon{
+    margin-right: 40px;
+    
+}
+header .icon img{
+    margin: 10px;
+    width: 18px;
+
+}
+.banner{
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    
+}
+.banner .title-banner{
+    background-color: #FFF3E3;
+    position: absolute;
+    width: 530px;
+    height: 400px;
+    left: 650px;
+    top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner .title-banner .title{
+    margin-left: 30px;
+}
+.banner .title-banner .title p{
+    font-size: 14px;
+}
+.banner .title-banner .title .lorem{
+    width: 400px;
+
+}
+.banner .title-banner button{
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #B88E2F;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.banner .title-banner h1{
+    width: 245px;
+    color: #B88E2F;
+}
+main .title-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+main .intro{
+    
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+    justify-content: center;
+}
+main .intro img{
+    border-radius: 10px;
+}
+main .intro div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-weight: bold;
+}
+main .product {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+main .product .title-product{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+main .product .item-product{
+    display: flex;
+    gap: 20px;
+}
+main .product .item-product .item{
+    background-color: #F4F5F7;
+    width: 25%;
+    height: 450px;
+}
+main .product .item-product .item img{
+    width: 100%;
+}
+main .product .item-product .item .price{
+    width: 88%;
+    margin: auto;
+    
+}
+main .product .item-product .item p{
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    
+}main .product .item-product .item p del{
+    color: #898989;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+main .product .item-product .item span{
+    font-size: 15px;
+    color: #898989;
+
+    
+}
+main .btn{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+main .btn button{
+    width: 250px;
+    height: 50px;
+    color: #B88E2F;
+    border: 1px solid #B88E2F;
+    font-weight: bold;
+    background-color: white;
+}
+main .btn button:hover{
+   background-color: #B88E2F;
+   color: white;
+   border: 1px solid white;
+}
+main .slide{
+    background-color: #FCF8F3;
+    margin-top: 50px;
+    display: flex;
+}
+main .slide .title-slide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 45px;
+    
+}
+main .slide .title-slide h2{
+    width: 300px;
+    
+}
+main .slide .title-slide p{
+    width: 330px;
+    
+}
+main .slide .title-slide button{
+    width: 120px;
+    margin-top: 20px;
+    height: 35px;
+    background-color: #B88E2F;
+    border: none;
+    color: white;
+}
+main .slide .img-slide{
+    display: flex;
+    gap: 20px;
+}
+main .slide .img-slide img{
+    width: 100%;
+}
+main .slide .img-slide .img2{
+    height: 500px;
+    width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.logo1 .logo2{
+    font-size: 27px;
+    display: flex;
+    gap: 5px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.logo1 .ttt{
+    color: #9F9F9F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 250px;
+}
+
+.link .link1{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #9F9F9F;
+}
+
+.link p{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.nl .link1{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #9F9F9F;
+}
+
+.nl .search{
+    border: 1px solid white;
+    border-bottom:1px solid black;
+}
+
+.nl .tim{
+    border: 1px solid white;
+    border-bottom:1px solid black;
+    background-color: white;
+    font-weight: bold;
+}
+
+.last{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.internet{
+    display: flex;
+    align-items: center;
+}
+.internet img{
+    margin: 5px;
+}
+
+
